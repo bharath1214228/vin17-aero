@@ -1,0 +1,61 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 10 Nov 2022 17:50:27 at https://www.ltu.se/edu/program/TMUTA/TMUTA-Underhallsteknik-master-1.144114?l=en&gclid=Cj0KCQiA37KbBhDgARIsAIzce16cW6V5XUZt1iiAGh-a_YymeFoOGQXZY1kd05RwemMlsaOIJ_AhZpMaAnaaEALw_wcB +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.ltu.se/edu/program/TMUTA/TMUTA-Underhallsteknik-master-1.144114?l=en&gclid=Cj0KCQiA37KbBhDgARIsAIzce16cW6V5XUZt1iiAGh-a_YymeFoOGQXZY1kd05RwemMlsaOIJ_AhZpMaAnaaEALw_wcB -O1 "C:\My Web Sites\vin17" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:50:31	Warning: 	Note: due to https://www.ltu.se remote robots.txt rules, links beginning with these path will be forbidden: /publ/stuka/, /preview/, /webarkiv/, /webbarkiv/, /ltu/lib/2.54835/, /s/, /cmlink/, /_special-polopoly/FormArticle.htm?a=87659, /edu/studentwebben/studyplanning/Examination-Tentamen-VFU-Praktik/tentamen/Anmalan-for-tentamen-pa-distans-1.87659, /cm/2.37185/, /polopoly, /wiki/ (see in the options to disable this)
+17:51:13	Error: 	"Not Found" (404) at link https://www.ltu.se/edu/program/TMUTA/TMUTA-Underhallsteknik-master-1.144114&gclid=Cj0KCQiA37KbBhDgARIsAIzce16cW6V5XUZt1iiAGh-a_YymeFoOGQXZY1kd05RwemMlsaOIJ_AhZpMaAnaaEALw_wcB (from https://www.ltu.se/edu/program/TMUTA/TMUTA-Underhallsteknik-master-1.144114?l=en&gclid=Cj0KCQiA37KbBhDgARIsAIzce16cW6V5XUZt1iiAGh-a_YymeFoOGQXZY1kd05RwemMlsaOIJ_AhZpMaAnaaEALw_wcB)
+17:51:34	Error: 	"Not Found" (404) at link https://www.ltu.se/edu/program/TMUTA/linkid.js (from https://www.ltu.se/edu/program/TMUTA/TMUTA-Underhallsteknik-master-1.144114?l=en&gclid=Cj0KCQiA37KbBhDgARIsAIzce16cW6V5XUZt1iiAGh-a_YymeFoOGQXZY1kd05RwemMlsaOIJ_AhZpMaAnaaEALw_wcB)
+17:51:58	Warning: 	Link https://www.ltu.se/edu/program/TMUTA/program-overview?l=en not scanned (follow robots meta tag)
+17:51:58	Warning: 	Link https://www.ltu.se/edu/program/TMUTA/programme-syllabus?l=en not scanned (follow robots meta tag)
+17:51:58	Warning: 	Link https://www.ltu.se/edu/program/TMUTA/programme-syllabus/Compulsory-courses?l=en not scanned (follow robots meta tag)
+17:51:59	Warning: 	Link https://www.ltu.se/edu/program/TMUTA/programme-syllabus/study-schedule?l=en not scanned (follow robots meta tag)
+17:52:18	Warning: 	Link https://www.ltu.se/edu/program/TMUTA/TMUTA-Underhallsteknik-master-1.144114?l=en&gclid=Cj0KCQiA37KbBhDgARIsAIzce16cW6V5XUZt1iiAGh-a_YymeFoOGQXZY1kd05RwemMlsaOIJ_AhZpMaAnaaEALw_wcB&termin=H23 not scanned (follow robots meta tag)
+17:52:18	Warning: 	Link https://www.ltu.se/edu/program/TMUTA/TMUTA-Underhallsteknik-master-1.144114?l=en&gclid=Cj0KCQiA37KbBhDgARIsAIzce16cW6V5XUZt1iiAGh-a_YymeFoOGQXZY1kd05RwemMlsaOIJ_AhZpMaAnaaEALw_wcB&termin=H22 not scanned (follow robots meta tag)
+17:52:19	Warning: 	Link https://www.ltu.se/edu/program/TMUTA/programme-syllabus?l=en&termin=ht23 not scanned (follow robots meta tag)
+17:52:19	Error: 	"Not Found" (404) at link https://www.ltu.se/edu/program/TMUTA/GET (from https://www.ltu.se/edu/program/TMUTA/TMUTA-Underhallsteknik-master-1.144114?l=en&gclid=Cj0KCQiA37KbBhDgARIsAIzce16cW6V5XUZt1iiAGh-a_YymeFoOGQXZY1kd05RwemMlsaOIJ_AhZpMaAnaaEALw_wcB)
+17:52:19	Warning: 	File not parsed, looks like binary: https://www.ltu.se/dist/25a32416abee198dd821b0b17a198a8f.eot
+17:52:19	Warning: 	File not parsed, looks like binary: https://www.ltu.se/dist/25a32416abee198dd821b0b17a198a8f.eot?
+17:52:19	Warning: 	File not parsed, looks like binary: https://www.ltu.se/dist/e6cf7c6ec7c2d6f670ae9d762604cb0b.woff2
+17:52:19	Warning: 	File not parsed, looks like binary: https://www.ltu.se/dist/c8ddf1e5e5bf3682bc7bebf30f394148.woff
+17:52:19	Warning: 	File not parsed, looks like binary: https://www.ltu.se/dist/1dc35d25e61d819a9c357074014867ab.ttf
+17:52:19	Warning: 	File not parsed, looks like binary: https://www.ltu.se/dist/a8b161eaaf748881f54dc9022296c461.eot?
+17:52:19	Warning: 	File not parsed, looks like binary: https://www.ltu.se/dist/dda3c3ea0f87ccd033ee8ee4e6a211f4.woff2
+17:52:19	Warning: 	File not parsed, looks like binary: https://www.ltu.se/dist/1c094344341a233f6bf71844f8866f45.woff
+17:52:19	Warning: 	File not parsed, looks like binary: https://www.ltu.se/dist/782d8f9b5a1e7565304d1b406814da76.ttf
+17:52:19	Warning: 	File not parsed, looks like binary: https://www.ltu.se/dist/2274a8945785d241a8c4421d7cef761a.eot?
+17:52:19	Warning: 	File not parsed, looks like binary: https://www.ltu.se/dist/c405a056ea0eddc456d70525b1a567ed.woff2
+17:52:19	Warning: 	File not parsed, looks like binary: https://www.ltu.se/dist/908036a04e2d5887f73eabf408a59d77.woff
+17:52:19	Warning: 	File not parsed, looks like binary: https://www.ltu.se/dist/897c7e852b64a57601115b4b4b49b8c2.ttf
+17:52:19	Warning: 	File not parsed, looks like binary: https://www.ltu.se/dist/716a92997345303df68b451e33a444e0.eot?
+17:52:19	Warning: 	File not parsed, looks like binary: https://www.ltu.se/dist/175966adf4329b52f730efa26f76deae.woff2
+17:52:19	Warning: 	File not parsed, looks like binary: https://www.ltu.se/dist/b49e235f336ad7237b5703707d53a1fe.woff
+17:52:19	Warning: 	File not parsed, looks like binary: https://www.ltu.se/dist/bdda4dbd017cac3c58963ac51d2428ba.ttf
+17:52:19	Warning: 	File not parsed, looks like binary: https://www.ltu.se/dist/e1b227cb184cf555604182db7137f141.eot?
+17:52:19	Warning: 	File not parsed, looks like binary: https://www.ltu.se/dist/c78b522a399a713e48fa6260b3b93dd8.woff2
+17:52:19	Warning: 	File not parsed, looks like binary: https://www.ltu.se/dist/b9941070576484218390383cef6dc07d.woff
+17:52:19	Warning: 	File not parsed, looks like binary: https://www.ltu.se/dist/b31433a9ef5ce48c981c24920afe09b9.ttf
+17:52:19	Warning: 	File not parsed, looks like binary: https://www.ltu.se/dist/7176dc59f92fb7c2ecef22946ca9fa22.eot?
+17:52:19	Warning: 	File not parsed, looks like binary: https://www.ltu.se/dist/559085b8e623355eb787b98551d0364a.woff2
+17:52:19	Warning: 	File not parsed, looks like binary: https://www.ltu.se/dist/a4727fbb6f6cc66cd3ebc6b07b767df4.woff
+17:52:19	Warning: 	File not parsed, looks like binary: https://www.ltu.se/dist/9ca9ac5a48190436b33717f31e5fa575.ttf
+17:52:23	Warning: 	Link https://www.ltu.se/edu/program/TMUTA/TMUTA-Underhallsteknik-master-1.144114?l=en&termin=H23 not scanned (follow robots meta tag)
+17:52:23	Warning: 	Link https://www.ltu.se/edu/program/TMUTA/TMUTA-Underhallsteknik-master-1.144114?l=en&termin=H22 not scanned (follow robots meta tag)
+17:52:23	Warning: 	Link https://www.ltu.se/edu/program/TMUTA/program-overview not scanned (follow robots meta tag)
+17:52:23	Warning: 	Link https://www.ltu.se/edu/program/TMUTA/programme-syllabus not scanned (follow robots meta tag)
+17:52:23	Warning: 	Link https://www.ltu.se/edu/program/TMUTA/programme-syllabus/Compulsory-courses not scanned (follow robots meta tag)
+17:52:24	Warning: 	Link https://www.ltu.se/edu/program/TMUTA/programme-syllabus/study-schedule not scanned (follow robots meta tag)
+17:52:41	Warning: 	Link https://www.ltu.se/edu/program/TMUTA/TMUTA-Underhallsteknik-master-1.144114?gclid=Cj0KCQiA37KbBhDgARIsAIzce16cW6V5XUZt1iiAGh-a_YymeFoOGQXZY1kd05RwemMlsaOIJ_AhZpMaAnaaEALw_wcB&termin=H23 not scanned (follow robots meta tag)
+17:52:41	Warning: 	Link https://www.ltu.se/edu/program/TMUTA/TMUTA-Underhallsteknik-master-1.144114?gclid=Cj0KCQiA37KbBhDgARIsAIzce16cW6V5XUZt1iiAGh-a_YymeFoOGQXZY1kd05RwemMlsaOIJ_AhZpMaAnaaEALw_wcB&termin=H22 not scanned (follow robots meta tag)
+17:52:42	Warning: 	Link https://www.ltu.se/edu/program/TMUTA/programme-syllabus?termin=ht23 not scanned (follow robots meta tag)
+17:52:42	Warning: 	Link https://www.ltu.se/edu/program/TMUTA/programme-syllabus/study-schedule?termin=ht23 not scanned (follow robots meta tag)
+17:53:01	Warning: 	Link https://www.ltu.se/edu/program/TMUTA/TMUTA-Underhallsteknik-master-1.144114?termin=H23 not scanned (follow robots meta tag)
+17:53:02	Warning: 	Link https://www.ltu.se/edu/program/TMUTA/TMUTA-Underhallsteknik-master-1.144114?termin=H22 not scanned (follow robots meta tag)
+17:53:02	Error: 	"Not Found" (404) at link https://www.ltu.se/edu/program/TMUTA/Karriar-och-framtid/linkid.js (from https://www.ltu.se/edu/program/TMUTA/Karriar-och-framtid/Forskare-i-arbete-hos-NASA-1.131155?l=en)
+17:53:02	Error: 	"Not Found" (404) at link https://www.ltu.se/edu/program/TMUTA/Karriar-och-framtid/GET (from https://www.ltu.se/edu/program/TMUTA/Karriar-och-framtid/Forskare-i-arbete-hos-NASA-1.131155?l=en)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 35 seconds : 172 links scanned, 166 files written (13635721 bytes overall) [12616447 bytes received at 81396 bytes/sec], 1615944 bytes transferred using HTTP compression in 56 files, ratio 27%, 5.2 requests per connection
+(5 errors, 45 warnings, 0 messages)

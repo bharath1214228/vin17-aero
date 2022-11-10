@@ -1,0 +1,193 @@
+
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>404 - Sidan hittades inte / Page not found</title>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css"/>
+    <link rel="stylesheet" href="//customer.cludo.com/assets/2335/10718/cludo-search.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/css/error.css" type="text/css" media="all" />
+</head>
+<body>
+<div class="menu-bar">
+    <div class="container">
+        <div id="main-nav">
+            <div class="ltu-nav-left">
+                <div class="logo-container">
+                    <figure class="ltu-menu-logo image is-32x32">
+                        <img src="/img/l.png" alt="LTU logotyp">
+                    </figure>
+                    <div class="ltu-banner-logo" style="margin-left: 5px">
+                        <a href="/" class=""><span>Luleå tekniska</span><span>Universitet</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container" id="page">
+    <div class="fourohhfour">
+        <div class="fourohfour-container">
+            <h1 id="error-header">
+                Sidan hittades inte / Page not found
+            </h1>
+             <p id="error-sub-head">Sidan du söker har flyttats eller tagits bort!</p>
+
+            <div class="cludo-result" style="margin-top: 25px">
+
+            <!-- Suggestions -->
+            <script id="cludo-404-script" data-cid="2335" data-eid="11100"></script>
+            </div>
+
+            <div style="margin-top: 25px">
+                <form id="cludo-search-form" method="get" action="/ltu/search">
+                    <div class="field has-addons">
+                        <div class="control" style="width: 100%">
+                            <input aria-label="" role="searchbox" id="cludoquery" class="input" type="text" placeholder="Sök på ltu.se">
+                        </div>
+                        <div class="control">
+                            <input type="submit" class="button is-info" id="search-submit" value="Sök" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <h2 style="margin-top: 50px">Service Point</h2>
+            <h6 id="service-desk">Få svar på dina ärenden och frågor</h6>
+            <a id="service-desk-link" href="https://www.ltu.se/ltu/Kontakta-oss/service-point">
+                Klicka här för att kontakta Service Point
+                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+            </a>
+
+            <h2 id="startpage" style="margin-top: 25px">Startsida</h2>
+            <a id="startpage-link" href="https://www.ltu.se">
+                Gå till LTU:s startsida
+                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+<script>
+    var localStrings = {
+        "search" : {
+            "sv" : "Sök",
+            "en" : "Search"
+        },
+        "placeholder" : {
+            "sv" : "Sök på ltu.se",
+            "en" : "Search ltu.se"
+        },
+        "homepage" : {
+            "sv" : "Startsida",
+            "en" : "Homepage",
+        },
+        "homepageText" : {
+            "sv" : "Gå till www.ltu.se",
+            "en" : "Go to www.ltu.se",
+        },
+        "notFound" : {
+            "sv": "Sidan hittades inte",
+            "en": "Page not found",
+        },
+        "notFoundSubhead" : {
+            "sv": "Sidan du söker har flyttats eller tagits bort.",
+            "en": "The page you were looking for has been moved or removed.",
+        },
+        "serviceDesk" : {
+            "sv" : "Få svar på dina ärenden och frågor",
+            "en" : "Get your questions answered",
+        },
+        "serviceDeskLink" : {
+            "sv" : "Klicka här för att kontakta Service Point",
+            "en" : "Click here to contact Service Point",
+        }
+    };
+    (function() {
+
+        var lang = location.search.indexOf("l=en") > -1 ? "en" : "sv";
+
+        document.getElementById("cludo-search-form").addEventListener("submit", function(e){
+            e.preventDefault();
+            var searchterm = document.getElementById("cludoquery").value;
+            var crawlerLang = lang === "en" ? "English":"Swedish";
+            var action = "/ltu/search?l="+lang+"#?cludoquery="+searchterm+"&cludocrawlerLang="+crawlerLang;
+            console.log(action);
+            this.action = action;
+            location.href = action;
+        });
+
+            document.getElementById("search-submit").value = localStrings.search[lang];
+            document.getElementById("cludoquery").placeholder = localStrings.placeholder[lang];
+            document.getElementById("cludoquery").setAttribute("aria-label", localStrings.placeholder[lang]);
+            document.getElementById("error-header").innerText = localStrings.notFound[lang];
+            document.getElementById("error-sub-head").innerText = localStrings.notFoundSubhead[lang];
+            document.getElementById("service-desk").innerText = localStrings.serviceDesk[lang];
+            document.getElementById("service-desk-link").innerText = localStrings.serviceDeskLink[lang];
+            document.getElementById("startpage").innerText = localStrings.homepage[lang];
+            document.getElementById("startpage-link").innerText = localStrings.homepageText[lang];
+            if(lang === "en") {
+                var attr = document.getElementById("startpage-link").getAttribute("href");
+                document.getElementById("startpage-link").setAttribute("href", attr + "?l=en");
+                document.getElementById("service-desk-link").setAttribute("href", attr + "?l=en");
+            }
+
+        var title = lang === "sv" ? "Rekommenderade sidor" : "Recommended pages";
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = 'https://customer.cludo.com/scripts/404/cludo-404.js';
+        var x = document.querySelector("#cludo-404-script");
+        x.setAttribute("data-suggestion-title", title);
+        if(lang === "en") {
+            x.setAttribute("data-eid", "11101");
+        }
+        x.parentNode.insertBefore(s, x);
+    }
+
+    )();
+
+    window.loadPageSection = function loadPageSection(url) {
+
+        var xhr = new XMLHttpRequest();
+        var finished = false;
+
+        xhr.onreadystatechange = function xhrStateChange() {
+            if (xhr.readyState === 4 && !finished) {
+                finished = true;
+                try {
+                    var footer = xhr.responseXML.querySelector(".ltu-footer");
+                    var css = xhr.responseXML.querySelector("#main-style");
+
+                    if(footer !== null) {
+                        document.querySelector("body").appendChild(footer);
+                    }
+
+                    if(css !== null) {
+                        var cssEl = document.createElement("link");
+                        cssEl.setAttribute("href", css.href);
+                        cssEl.setAttribute("rel", "stylesheet");
+                        console.log(cssEl);
+                        document.querySelector("head").appendChild(cssEl);
+                    }
+
+                } catch (e) {
+                    console.log(e);
+                }
+            }
+        };
+
+        xhr.open('GET', url);
+        xhr.responseType = 'document';
+        xhr.send();
+    };
+    var lang = location.search.indexOf("l=en") > -1 ? "en" : "sv";
+    if(lang === "en") {
+        loadPageSection("/?l=en",);
+    }
+    loadPageSection("/",);
+
+</script>
+</body>
+</html>

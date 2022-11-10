@@ -1,0 +1,188 @@
+/* Id: 7.103002.1634833774
+ * Generated: 2022-nov-10 13:22:02
+ */
+    aside.faktaruta a{
+  color: #053159 !important;
+}
+
+.text-block a{
+	color: #053159 !important;
+}
+
+.mega-menu-center 
+{
+ background: white !important;
+}
+
+.flickity-page-dots {
+	display: none !important;
+}
+.mega-menu .arrow {
+    display: none;
+}
+.calendar-card a:hover {
+    color: white;
+}
+
+.article-container .column-splitter .simple-list-container {
+    padding-left: 0;
+}
+
+@media screen and (min-width: 1000px) {
+  .ltu-calendarium {
+      max-width: 20em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+	.full-image-card img {
+    	height: 380px !important;
+    }
+}
+    
+
+.video-card .image-title-overlay p {
+    margin-bottom: 0;
+}
+    
+    
+#compareRoot .fa {
+    font-size: 1em !important;
+}
+    
+@supports (-webkit-overflow-scrolling: touch) {
+	/* CSS specific to iOS devices */ 
+      .mobile-menu {
+      height: calc(100vh - 114px) !Important;
+    }
+}
+
+
+
+    /* The ribbons */
+
+.corner-ribbon{
+  width: 300px;
+  background: #05325a;
+  position: absolute;
+  top: 50px;
+  left: -75px;
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 1px;
+  color: #f0f0f0;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+    
+    
+    
+a.cornerlink{
+
+    color: #ffffff;
+    font-weight: 800;
+}
+}
+    
+    
+  
+  
+  
+  
+
+/* Custom styles */
+
+.corner-ribbon.sticky{
+  position: fixed;
+}
+
+.corner-ribbon.shadow{
+  box-shadow: 0 0 3px rgba(0,0,0,.3);
+}
+
+/* Different positions */
+
+.corner-ribbon.top-right{
+  top: 50px;
+  right: -75px;
+  left: auto;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+/* Colors */
+
+.corner-ribbon.white{background: #f0f0f0; color: #555;}
+.corner-ribbon.black{background: #333;}
+.corner-ribbon.grey{background: #999;}
+.corner-ribbon.blue{background: #F15A22;}
+.corner-ribbon.green{background: #2c7;}
+.corner-ribbon.turquoise{background: #1b9;}
+.corner-ribbon.purple{background: #95b;}
+.corner-ribbon.red{background: #e43;}
+.corner-ribbon.orange{background: #e82;}
+.corner-ribbon.yellow{background: #ec0;}
+
+
+/* 50 year anniversary styles */
+
+.ltu-big-logo .anniversary-logo-container {
+  	height: 50%;
+  	text-align: center;
+}
+
+.ltu-big-logo .anniversary-logo-container img {
+    width: auto;
+    height: 100%;
+  	-webkit-filter: drop-shadow(0 0 5px rgb(99, 99, 99, 0.51));
+    filter: drop-shadow(0 0 5px rgb(99, 99, 99, 0.51));
+}
+
+@media screen and (min-width: 1192px) {
+	.ltu-big-logo .anniversary-logo-container {
+        width: 25%;
+        margin-right: -0.75rem;
+    }
+    .ltu-big-logo .anniversary-logo-container img {
+        height: 160px;
+        margin-top: -18px;
+	}
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+	.ltu-big-logo .biglogo.en {
+		font-size: 5em;
+	}
+}
+
+.ltu-big-logo .expander {
+	flex-grow: 1;          
+}
+
+
+.card-image .image-title-overlay-container {
+    -webkit-box-pack: flex-end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: flex-end;
+    justify-content: flex-end;
+}
+
+.list-card .ltu-card-title-big, .list-card .ltu-card-title {
+	display: inline-block;
+}
+
+.list-card .ltu-card-title-big:after, .list-card .ltu-card-title:after {
+	content: none;
+}
+
+@media screen and (max-width: 999px) {
+	.ltu-calendarium {
+    	background-color: #1e6ea0;
+	}
+    .ltu-calendarium a:hover {
+    	color: white;
+    }
+}
+
+
+      
